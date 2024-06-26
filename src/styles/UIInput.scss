@@ -1,0 +1,14 @@
+input {
+	outline: none;
+	border: 1px solid #e9ecef;
+	border-radius: 8px;
+	width: 100%;
+	padding: 14.5px 16px;
+	font-size: 14px;
+	color: var(--text-color-light);
+
+	&:focus,
+	&:hover {
+		border-color: lightskyblue;
+	}
+}

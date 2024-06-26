@@ -1,0 +1,55 @@
+.page__container {
+	max-width: 1300px;
+	margin: auto;
+
+	.content__card {
+		padding: 0px 50px 50px 50px;
+
+		.card {
+			display: grid;
+			grid-template-columns: 293px 1fr;
+			box-shadow: 0px 0px 10px 0px #0000001a;
+			border-radius: 10px;
+			min-height: 589px;
+
+			&-sidebar {
+				background: #fdfdfd;
+				padding: 27px 20px;
+
+				.label {
+					color: var(--text-color-dark);
+					line-height: 22.4px;
+				}
+
+				.filter {
+					margin-top: 22px;
+				}
+
+				.error-enter-active,
+				.error-leave-active {
+					transition: all 0.5s ease;
+				}
+
+				.error-enter-from,
+				.error-leave-to {
+					opacity: 0;
+					transform: translateY(-20px);
+				}
+
+				.notification__error {
+					font-size: 12px;
+					margin-top: 5px;
+					color: lightcoral;
+				}
+
+				.result__component {
+					margin-top: 22px;
+				}
+			}
+
+			&-view__profile {
+				border-left: 1px solid #dededd;
+			}
+		}
+	}
+}
